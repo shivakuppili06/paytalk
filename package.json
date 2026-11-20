@@ -1,0 +1,13 @@
+{
+  "name": "paytalk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PayTalk — Conversational AI Agent for Instant Payments & Bill Splitting",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "backend:dev": "node --watch backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend"
+  }
+}
